@@ -5,7 +5,7 @@ import urllib.parse
 
 st.set_page_config(page_title="Simple Social", layout="wide")
 
-# Initialize session state
+# Initialize session state (testing)
 if 'token' not in st.session_state:
     st.session_state.token = None
 if 'user' not in st.session_state:
